@@ -1,0 +1,73 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7f0;
+    color: #333333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffdfd3;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Gallery container */
+.emoji-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Individual emoji cards */
+.emoji-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #f0d5ca;
+    border-radius: 15px;
+    padding: 25px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.emoji-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Emoji character */
+.emoji {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+/* Decimal code */
+.emoji-code {
+    font-size: 16px;
+    color: #555555;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #666666;
+}
